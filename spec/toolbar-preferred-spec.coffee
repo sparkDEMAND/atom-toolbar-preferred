@@ -29,7 +29,3 @@ describe "AtomToolBarPreferred", ->
     runs ->
       editor = atom.workspace.getActiveTextEditor()
       jsGrammar = atom.grammars.grammarForScopeName('source.js')
-
-  describe "@activate", ->
-    it "store grammar", ->
-      expect(atomToolBarPreferred.currentGrammar).toBe editor.getGrammar().name.toLowerCase()
