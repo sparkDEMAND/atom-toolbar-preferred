@@ -199,16 +199,23 @@
   },
   {
     type: 'button'
-    tooltip: 'Reload Window'
-    callback: 'window:reload'
-    icon: 'refresh'
-    iconset: 'fa'
+    tooltip: 'FTP'
+    callback: 'remote-edit:browse'
+    icon: 'arrow-swap'
+    iconset: 'ion'
   },
   {
     type: 'button'
     tooltip: 'Open Terminal'
     callback: 'term3:open-split-down'
     icon: 'terminal'
+    iconset: 'fa'
+  },
+  {
+    type: 'button'
+    tooltip: 'Reload Window'
+    callback: 'window:reload'
+    icon: 'refresh'
     iconset: 'fa'
   },
   {
@@ -242,10 +249,12 @@
     className: 'custom-class'
   },
   {
-    type: 'button'
-    tooltip: 'FTP'
-    callback: 'remote-edit:browse'
-    icon: 'arrow-swap'
-    iconset: 'ion'
+    type: "spacer"
+  },
+  {
+    type: "button"
+    icon: "gear"
+    callback: "atom-toolbar-preferred:edit-config-file"
+    tooltip: "Edit Tool Bar"
   }
 ]
