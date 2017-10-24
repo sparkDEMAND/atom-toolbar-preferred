@@ -16,7 +16,7 @@ An Atom tool-bar plugin that builds upon the tool-bar package to provide preferr
 It is a fully configurable toolbar compatible with any package. Configuration can be done with a `CSON`, `JSON`, `JSON5`, `js`, or `coffee` file
 to perform specific actions in Atom or to open web sites in your default browser.
 
-![screenshot](https://raw.githubusercontent.com/sparkDEMAND/atom-toolbar-preferred/docs/screenshot_cson.png)
+![screenshot](https://raw.githubusercontent.com/sparkDEMAND/atom-toolbar-preferred/master/screenshot_cson.png)
 
 To edit your config file,
 type `Atom Toolbar Preferred: Edit Config File` in the Atom command palette.
