@@ -1,7 +1,8 @@
 language: objective-c
 cache:
+  yarn: true
   directories:
-  - node_modules
+    - node_modules
 notifications:
   email:
     on_success: never
