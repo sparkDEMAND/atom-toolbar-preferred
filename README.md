@@ -1,5 +1,7 @@
 # Preferred Toolbar for Atom: _a tool-bar plugin_
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sparkDEMAND/atom-toolbar-preferred.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/sparkDEMAND/atom-toolbar-preferred.svg?branch=master)](https://travis-ci.org/sparkDEMAND/atom-toolbar-preferred)
 
 ## About
