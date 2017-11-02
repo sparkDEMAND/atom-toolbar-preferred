@@ -355,7 +355,7 @@ module.exports =
   },
   {
     type: "button"
-    callback: "flex-tool-bar:edit-config-file"
+    callback: "atom-toolbar-preferred:edit-config-file"
     tooltip: "Edit Tool Bar"
     icon: "tools"
   }
