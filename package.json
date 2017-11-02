@@ -1,7 +1,7 @@
 {
   "name": "atom-toolbar-preferred",
   "main": "./lib/atom-toolbar-preferred",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "An Atom tool-bar plugin that builds upon tool-bar to provide many preferred actions, including live previews, git, formatting, dev tools, IDE tools, and other popularly used actions while remaining uncluttered and intuitive.",
   "repository": "https://github.com/sparkDEMAND/atom-toolbar-preferred",
   "license": "Apache-2.0",
