@@ -26,7 +26,7 @@ type `Atom Toolbar Preferred: Edit Config File` in the Atom command palette.
 ### _**General Commands**_
 
 -   **open file**
--   **open folder**
+-   **open folder** (requires `atom-commander` package)
 -   **save file**
 -   **list projects** (requires `project-manager` package)
 
@@ -39,7 +39,7 @@ type `Atom Toolbar Preferred: Edit Config File` in the Atom command palette.
 
 ### _**Git Commands**_
 
--   **git command menu** (requires `git-plus` or `git-control` package)
+-   **git command menu** (requires `git-plus` package)
 -   **git projects** (requires `git-projects` package)
 -   **show blame** (requires `blame` package)
 -   **show git diff details** (requires `git-diff-details` package)
@@ -50,8 +50,9 @@ type `Atom Toolbar Preferred: Edit Config File` in the Atom command palette.
 ### _**Viewing & Arranging**_
 
 -   **toggle fullscreen**
--   **split screen - horizontally**
 -   **split screen - vertically**
+-   **split screen - horizontally**
+-   **focus active pane** (requires `hey-pane` package)
 -   **split diff** (requires `split-diff` package)
 -   **toggle sidebar**
 -   **toggle minimap** (requires `minimap` package)
@@ -67,20 +68,21 @@ type `Atom Toolbar Preferred: Edit Config File` in the Atom command palette.
 ### _**IDE & Dev Tools**_
 
 -   **open a terminal (split bottom)** (requires `term3` package)
-      _config file can also be altered to use_
-        1. _`term2` package_
-        2. _`terminal-plus` package_
-        3. _`platformio-ide-terminal` package_
-          - _see [configuration](https://github.com/sparkDEMAND/atom-toolbar-preferred#configuration)_.
+    -   _config file can also be altered to use_
+        1.  _`term2` package_
+        2.  _`terminal-plus` package_
+        3.  _`platformio-ide-terminal` package_
+    -   _see [configuration](https://github.com/sparkDEMAND/atom-toolbar-preferred#configuration)._
 -   **run script** (requires `script` package)
--   **run by line** (requires `script` package)
 -   **stop script** (requires `script` package)
 -   **configure script** (requires `script` package)
--   -
+
+
 -   **reload window**
 -   **toggle dev-tools**
 -   **ask stack-overflow** (requires `ask-stack`)
--   -
+
+
 -   **open command palette**
 -   **open settings view**
 
