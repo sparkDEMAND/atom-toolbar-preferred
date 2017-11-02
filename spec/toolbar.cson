@@ -286,7 +286,6 @@
     callback: 'settings-view:open'
     icon: 'ios-cog'
     iconset: 'ion'
-    className: 'fa-shrink'
   },
   {
     type: "spacer"
