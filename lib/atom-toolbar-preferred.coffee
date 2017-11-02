@@ -22,7 +22,7 @@ module.exports =
       default: true
     useBrowserPlusWhenItIsActive:
       type: 'boolean'
-      default: false
+      default: true
 
   activate: ->
     require('atom-package-deps').install('atom-toolbar-preferred')
@@ -72,7 +72,8 @@ module.exports =
   {
     type: 'button'
     tooltip: 'Open Folder'
-    callback: 'application:open-folder'
+    dependency: 'atom-commander'
+    callback: 'atom-commander:toggle-visible'
     icon: 'folder-open'
     iconset: 'fa'
   },
@@ -191,22 +192,30 @@ module.exports =
     type: 'button'
     tooltip: 'Toggle Fullscreen'
     callback: 'window:toggle-full-screen'
-    icon: 'arrows-alt'
-    iconset: 'fa'
-  },
-  {
-    type: 'button'
-    tooltip: 'Split screen - Horizontally'
-    callback: 'pane:split-right'
-    icon: 'format-horizontal-align-center'
+    icon: 'arrow-expand-all'
     iconset: 'mdi'
   },
   {
     type: 'button'
     tooltip: 'Split screen - Vertically'
     callback: 'pane:split-right'
+    icon: 'format-horizontal-align-center'
+    iconset: 'mdi'
+  },
+  {
+    type: 'button'
+    tooltip: 'Split screen - Horizontally'
+    callback: 'pane:split-down'
     icon: 'format-vertical-align-center'
     iconset: 'mdi'
+  },
+  {
+    type: 'button'
+    tooltip: 'Focus Active Pane'
+    dependency: 'hey-pane'
+    callback: 'hey-pane:toggle-focus-of-active-pane'
+    icon: 'expand'
+    iconset: 'fa'
   },
   {
     type: 'button'
@@ -258,14 +267,21 @@ module.exports =
     iconset: 'fa'
   },
   {
-    type: 'spacer'
+    type: 'button'
+    tooltip: 'Fold All'
+    callback: 'editor:fold-all'
+    icon: 'angle-double-up'
+    iconset: 'fa'
   },
   {
     type: 'button'
-    tooltip: 'FTP'
-    callback: 'remote-edit:browse'
-    icon: 'arrow-swap'
-    iconset: 'ion'
+    tooltip: 'Unfold All'
+    callback: 'editor:unfold-all'
+    icon: 'angle-double-down'
+    iconset: 'fa'
+  },
+  {
+    type: 'spacer'
   },
   {
     type: 'button'
@@ -273,6 +289,30 @@ module.exports =
     callback: 'term3:open-split-down'
     icon: 'terminal'
     iconset: 'fa'
+  },
+  {
+    type: 'button'
+    tooltip: 'Run Script'
+    callback: 'script:run'
+    icon: 'play-circle'
+    iconset: 'fa'
+  },
+  {
+    type: 'button'
+    tooltip: 'Stop Script'
+    callback: 'script:kill-process'
+    icon: 'stop-circle'
+    iconset: 'fa'
+  },
+  {
+    type: 'button'
+    tooltip: 'Config Script'
+    callback: 'script:run-options'
+    icon: 'sliders'
+    iconset: 'fa'
+  },
+  {
+    type: 'spacer'
   },
   {
     type: 'button'
@@ -309,16 +349,15 @@ module.exports =
     callback: 'settings-view:open'
     icon: 'ios-cog'
     iconset: 'ion'
-    className: 'custom-class'
   },
   {
     type: "spacer"
   },
   {
     type: "button"
-    icon: "gear"
-    callback: "atom-toolbar-preferred:edit-config-file"
+    callback: "flex-tool-bar:edit-config-file"
     tooltip: "Edit Tool Bar"
+    icon: "tools"
   }
 ]
 '''
