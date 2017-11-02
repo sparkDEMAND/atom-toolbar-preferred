@@ -16,7 +16,7 @@ module.exports =
   config:
     toolBarConfigurationFilePath:
       type: 'string'
-      default: '~/.atom/toolbar.cson'
+      default: ''
     reloadToolBarWhenEditConfigFile:
       type: 'boolean'
       default: true
