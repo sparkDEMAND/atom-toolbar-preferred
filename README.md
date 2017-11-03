@@ -25,66 +25,66 @@ type `Atom Toolbar Preferred: Edit Config File` in the Atom command palette.
 
 ### _**General Commands**_
 
--   **open file**
--   **open folder** (requires `atom-commander` package)
--   **save file**
--   **list projects** (requires `project-manager` package)
+- **open file**
+- **open folder** (requires `atom-commander` package)
+- **save file**
+- **list projects** (requires `project-manager` package)
 
 ### _**Previews & Management**_
 
--   **markdown preview** (requires `markdown-preview` package)
--   **html preview** (requires `atom-html-preview` package)
--   **find and replace**
--   **project: ToDo list** (requires `todo-show` package)
+- **markdown preview** (requires `markdown-preview` package)
+- **html preview** (requires `atom-html-preview` package)
+- **find and replace**
+- **project: ToDo list** (requires `todo-show` package)
 
 ### _**Git Commands**_
 
--   **git command menu** (requires `git-plus` package)
--   **git projects** (requires `git-projects` package)
--   **show blame** (requires `blame` package)
--   **show git diff details** (requires `git-diff-details` package)
--   **show merge conflicts** (requires `merge-conflicts` package)
--   **show git time machine** (requires `git-time-machine` package)
--   **open on github** (requires `open-on-github` package)
+- **git command menu** (requires `git-plus` package)
+- **git projects** (requires `git-projects` package)
+- **show blame** (requires `blame` package)
+- **show git diff details** (requires `git-diff-details` package)
+- **show merge conflicts** (requires `merge-conflicts` package)
+- **show git time machine** (requires `git-time-machine` package)
+- **open on github** (requires `open-on-github` package)
 
 ### _**Viewing & Arranging**_
 
--   **toggle fullscreen**
--   **split screen - vertically**
--   **split screen - horizontally**
--   **focus active pane** (requires `hey-pane` package)
--   **split diff** (requires `split-diff` package)
--   **toggle sidebar**
--   **toggle minimap** (requires `minimap` package)
--   **toggle exposé** (requires `expose` package)
+- **toggle fullscreen**
+- **split screen - vertically**
+- **split screen - horizontally**
+- **focus active pane** (requires `hey-pane` package)
+- **split diff** (requires `split-diff` package)
+- **toggle sidebar**
+- **toggle minimap** (requires `minimap` package)
+- **toggle exposé** (requires `expose` package)
 
 ### _**Formatting**_
 
--   **beautify** (requires `atom-beautify` package)
--   **auto-indent**
--   **fold all**
--   **unfold all**
+- **beautify** (requires `atom-beautify` package)
+- **auto-indent**
+- **fold all**
+- **unfold all**
 
 ### _**IDE & Dev Tools**_
 
--   **open a terminal (split bottom)** (requires `term3` package)
-    -   _config file can also be altered to use_
-        1.  _`term2` package_
-        2.  _`terminal-plus` package_
-        3.  _`platformio-ide-terminal` package_
-    -   _see [configuration](https://github.com/sparkDEMAND/atom-toolbar-preferred#configuration)._
--   **run script** (requires `script` package)
--   **stop script** (requires `script` package)
--   **configure script** (requires `script` package)
+- **open a terminal (split bottom)** (requires `term3` package)
+  - _config file can also be altered to use_
+    1. _`term2` package_
+    1. _`terminal-plus` package_
+    1. _`platformio-ide-terminal` package_
+  - _see [configuration](https://github.com/sparkDEMAND/atom-toolbar-preferred#configuration)._
+- **run script** (requires `script` package)
+- **stop script** (requires `script` package)
+- **configure script** (requires `script` package)
 
 
--   **reload window**
--   **toggle dev-tools**
--   **ask stack-overflow** (requires `ask-stack`)
+- **reload window**
+- **toggle dev-tools**
+- **ask stack-overflow** (requires `ask-stack`)
 
 
--   **open command palette**
--   **open settings view**
+- **open command palette**
+- **open settings view**
 
 **Note**: The toolbar buttons that require other packages will appear when you have those packages installed.
 
@@ -94,20 +94,20 @@ To use 'atom-toolbar-preferred', you have to first install the 'tool-bar' depend
 
 ### Command Line
 
-```
+```bash
 apm install tool-bar
 ```
 
 Then you install the `atom-toolbar-preferred` package:
 
-```
+```bash
 apm install atom-toolbar-preferred
 ```
 
 ## Options
 
-1.  You have the ability to include [custom entries](https://github.com/sparkDEMAND/atom-toolbar-preferred#configuration).
-2.  You also have the ability to load the [suggested defaults](https://github.com/sparkDEMAND/atom-toolbar-preferred#default-setup) along side your custom entries, or only the custom entries.
+1. You have the ability to include [custom entries](https://github.com/sparkDEMAND/atom-toolbar-preferred#configuration).
+1. You also have the ability to load the [suggested defaults](https://github.com/sparkDEMAND/atom-toolbar-preferred#default-setup) along side your custom entries, or only the custom entries.
 
 ## Configuration
 
@@ -119,7 +119,7 @@ apm install atom-toolbar-preferred
 
      You can use it to set actions like `application:new-file`.
 
-2.  `url` creates buttons pointing to specific web pages.
+1.  `url` creates buttons pointing to specific web pages.
 
     Use this to open any web site, such as your GitHub notifications, in your default browser.
 
@@ -135,11 +135,11 @@ apm install atom-toolbar-preferred
 -   `spacer` adds separators between toolbar buttons.
 
 ### Features
--   multiple callback
--   function callback
--   inline button styles
--   add class(s) to buttons
--   hide/disable a button in certain cases
+- multiple callback
+- function callback
+- inline button styles
+- add class(s) to buttons
+- hide/disable a button in certain cases
 
 ### Example
 
@@ -187,12 +187,11 @@ See more examples on [Wiki](https://github.com/sparkDEMAND/atom-toolbar-preferre
 
 | [![sparkDEMAND][sparkDEMAND avatar]](https://github.com/sparkDEMAND) | [![Jay Schwartz][jschwrtz avatar]](https://github.com/jschwrtz) |
 | :-----------------------------------------------------------: | :-----------------------------------------------------------------: |
-| [sparkDEMAND](https://github.com/sparkDEMAND)                     | [Jay Schwartz](https://github.com/jschwrtz)                   |
+| [sparkDEMAND](https://github.com/sparkDEMAND) | [Jay Schwartz](https://github.com/jschwrtz) |
 
 ## License
 
-ALv2 @ [sparkDEMAND, LLC.](https://github.com/sparkDEMAND/)
-
+[Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) @ [sparkDEMAND, LLC.](https://github.com/sparkDEMAND/)
 
 [sparkDEMAND avatar]: https://avatars3.githubusercontent.com/u/30666313?s=400&u=345e76d27c1be4d8035bb23cd2db75e80acf6b9f&v=4
 [jschwrtz avatar]: https://avatars3.githubusercontent.com/u/26683765?s=400&u=8f2394929ce8d484e04b36527e1351797e029fc6&v=4
