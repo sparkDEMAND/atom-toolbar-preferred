@@ -5,8 +5,8 @@ cache:
     - node_modules
 notifications:
   email:
-    on_success: never
-    on_failure: change
+    on_success: always
+    on_failure: always
 env:
   global:
   - APM_TEST_PACKAGES="tool-bar atom-toolbar-preferred"
@@ -17,7 +17,7 @@ env:
 script:
 - curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh
 - "./node_modules/.bin/remark ."
-before_install: yarn global add greenkeeper-lockfile@1 --tilde
+before_install: yarn global add greenkeeper-lockfile
 before_script: greenkeeper-lockfile-update
 after_script: greenkeeper-lockfile-upload
 branches:
