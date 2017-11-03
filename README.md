@@ -1,8 +1,12 @@
 # Preferred Toolbar for Atom: _a tool-bar plugin_
 
+[![Build Status](https://travis-ci.org/sparkDEMAND/atom-toolbar-preferred.svg?branch=master)](https://travis-ci.org/sparkDEMAND/atom-toolbar-preferred)
+
+[![bitHound Overall Score](https://www.bithound.io/github/sparkDEMAND/atom-toolbar-preferred/badges/score.svg)](https://www.bithound.io/github/sparkDEMAND/atom-toolbar-preferred)
+
 [![Greenkeeper badge](https://badges.greenkeeper.io/sparkDEMAND/atom-toolbar-preferred.svg)](https://greenkeeper.io/)
 
-[![Build Status](https://travis-ci.org/sparkDEMAND/atom-toolbar-preferred.svg?branch=master)](https://travis-ci.org/sparkDEMAND/atom-toolbar-preferred)
+[![NSP Status](https://nodesecurity.io/orgs/sparkdemand/projects/020082d2-3575-4c2d-b21d-762625708731/badge)](https://nodesecurity.io/orgs/sparkdemand/projects/020082d2-3575-4c2d-b21d-762625708731)
 
 ## About
 

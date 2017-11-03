@@ -2,11 +2,13 @@ language: objective-c
 cache:
   yarn: true
   directories:
-    - node_modules
+  - node_modules
 notifications:
   email:
-    on_success: always
-    on_failure: always
+    on_success: change
+    on_failure: change
+  slack:
+    secure: TvRwKhOqx2foKRFUa2NDLP08J75rbv5xwNzcSB2A+7Zs7x0c44bSCUSp4Q0LkLUTqlRRIGtstKhZYzcklN5fUdkl6/z4IU4OGreJ6wyJetbCzqK81idhSXz53ce4tKn697SPgzWawooZ6QblYjsk8VH0fz7g6sdVwKHM950B8J109Vugh1AbPfcD6ILWv2ytM20kBS0r5YsE+PfvzQdOz/sFyxOaLB7cD/B1cyLMbDrDy3r55NKZSqpEaAoQDu8DCQAIlEsnWfmr7dxlhbOlShTtvbR2oGVYPBApT//+CqCbY1doxv6IPtInDdrbNFH2cG62SyeuPbMCA5+DEVcdr67ksSazi6kEAWj/m4/K8sBs+vgv8y8bN5UC9gCdhuqwSPaV0lfLfjfqckFUvxRPQh3V/XZgcJ6HWTidWrXRDbJV0Hexkh3hUFsLrkAC1C/O3io4Kxo3A3IkiVvaZYK0E2gmP3KJnln7r6kI0Hfq5Zp5TvJOVx5j11hUt3+cxG0cXGWq/WbS4+PlSL8ZODO9CWSoIoTjTzSLtXG1imJOfYuqV3vi6uLXRTMc+i9/O1/0ipm3gBSSjo1icaOtpGWXsgI/KyQVdgQcCCWXauk+AGcKAUq2LZL3QCMjKY4707eB0u68550huRL5h7OUO1K2dK/fxVyBDJ2dGrj1zkAbvGU=
 env:
   global:
   - APM_TEST_PACKAGES="tool-bar atom-toolbar-preferred"
@@ -16,14 +18,12 @@ env:
   - ATOM_CHANNEL=beta
 script:
 - curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh
-before_install:
-  npm install -g yarn
-  yarn global add greenkeeper-lockfile
+before_install: npm install -g yarn yarn global add greenkeeper-lockfile
 before_script: greenkeeper-lockfile-update
 after_script: greenkeeper-lockfile-upload
 branches:
   only:
-    - master
-    - /^greenkeeper/.*$/
+  - master
+  - "/^greenkeeper/.*$/"
 git:
   depth: 10

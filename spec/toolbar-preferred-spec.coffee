@@ -24,7 +24,7 @@ describe "AtomToolBarPreferred", ->
       atom.packages.activatePackage('language-javascript')
 
     waitsForPromise ->
-      atom.workspace.open 'sample.js'
+      atom.workspace.open 'toolbar.cson'
 
     runs ->
       editor = atom.workspace.getActiveTextEditor()
