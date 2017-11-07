@@ -1,5 +1,8 @@
 # Change Log
 
+## [v1.4.0](https://github.com/sparkDEMAND/atom-toolbar-preferred/tree/v1.4.0) (2017-11-04)
+[Full Changelog](https://github.com/sparkDEMAND/atom-toolbar-preferred/compare/v1.2.2...v1.4.0)
+
 ## [v1.2.2](https://github.com/sparkDEMAND/atom-toolbar-preferred/tree/v1.2.2) (2017-11-02)
 [Full Changelog](https://github.com/sparkDEMAND/atom-toolbar-preferred/compare/v1.2.1...v1.2.2)
 

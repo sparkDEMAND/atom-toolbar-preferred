@@ -147,7 +147,7 @@ apm install atom-toolbar-preferred
 
 ### Example
 
-```coffeescript
+```coffee
 [
   {
     type: "url"
