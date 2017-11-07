@@ -1,12 +1,14 @@
 # Preferred Toolbar for Atom: _a tool-bar plugin_
 
 [![Build Status](https://travis-ci.org/sparkDEMAND/atom-toolbar-preferred.svg?branch=master)](https://travis-ci.org/sparkDEMAND/atom-toolbar-preferred)
-
 [![bitHound Overall Score](https://www.bithound.io/github/sparkDEMAND/atom-toolbar-preferred/badges/score.svg)](https://www.bithound.io/github/sparkDEMAND/atom-toolbar-preferred)
-
 [![Greenkeeper badge](https://badges.greenkeeper.io/sparkDEMAND/atom-toolbar-preferred.svg)](https://greenkeeper.io/)
-
 [![NSP Status](https://nodesecurity.io/orgs/sparkdemand/projects/020082d2-3575-4c2d-b21d-762625708731/badge)](https://nodesecurity.io/orgs/sparkdemand/projects/020082d2-3575-4c2d-b21d-762625708731)
+
+[![APM License](https://img.shields.io/apm/l/atom-toolbar-preferred.svg)](https://github.com/sparkDEMAND/atom-toolbar-preferred/blob/27fd2c47ebe359d33fcf4f1a8e9ce9013e415c53/LICENSE )
+[![APM Downloads](https://img.shields.io/apm/dm/atom-toolbar-preferred.svg)](https://atom.io/packages/atom-toolbar-preferred)
+[![APM Version](https://img.shields.io/apm/v/atom-toolbar-preferred.svg)](https://atom.io/packages/atom-toolbar-preferred)
+
 
 ## About
 
