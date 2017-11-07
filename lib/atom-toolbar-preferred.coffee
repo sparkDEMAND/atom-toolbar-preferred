@@ -122,7 +122,7 @@ module.exports =
   {
     type: 'button'
     tooltip: 'Project: To-Do List'
-    callback: 'todo-show:find-in-project'
+    callback: 'todo-show:find-in-open-files'
     icon: 'list-ul'
     iconset: 'fa'
   },
