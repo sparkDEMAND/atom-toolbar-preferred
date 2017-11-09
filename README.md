@@ -9,7 +9,6 @@
 [![APM Version](https://img.shields.io/apm/v/atom-toolbar-preferred.svg)](https://atom.io/packages/atom-toolbar-preferred)
 [![APM License](https://img.shields.io/apm/l/atom-toolbar-preferred.svg)](https://github.com/sparkDEMAND/atom-toolbar-preferred/blob/master/LICENSE)
 
-
 ## About
 
 This is a plugin for
@@ -121,24 +120,16 @@ apm install atom-toolbar-preferred
 
 `button`, `url`, `function` and `spacer`.
 
-1.  `button` creates default buttons for your toolbar.
-
-     You can use it to set actions like `application:new-file`.
-
-1.  `url` creates buttons pointing to specific web pages.
-
-    Use this to open any web site, such as your GitHub notifications, in your default browser.
-
-    If you have the package [browser-plus](https://atom.io/packages/browser-plus)
+1. `button` creates default buttons for your toolbar.
+   - You can use it to set actions like `application:new-file`.
+1. `url` creates buttons pointing to specific web pages.
+   - Use this to open any web site, such as your GitHub notifications, in your default browser.
+   - If you have the package [browser-plus](https://atom.io/packages/browser-plus)
     installed, you can open links with atom. To enable this feature, check the corresponding box within Atom Toolbar Preferred's settings.
-
-    Atom URI can also be used. For example; `atom://config/packages/atom-toolbar-preferred` will open Atom Toolbar Preferred's settings.
-
--   `function` creates buttons that can call a function with the previous target as a parameter
-
-    In order to do this, the config file **must** be a `.js` or `.coffee` file that exports the array of buttons.
-
--   `spacer` adds separators between toolbar buttons.
+   - Atom URI can also be used. For example; `atom://config/packages/atom-toolbar-preferred` will open Atom Toolbar Preferred's settings.
+1. `function` creates buttons that can call a function with the previous target as a parameter
+   - In order to do this, the config file **must** be a `.js` or `.coffee` file that exports the array of buttons.
+1. `spacer` adds separators between toolbar buttons.
 
 ### Features
 - multiple callback
