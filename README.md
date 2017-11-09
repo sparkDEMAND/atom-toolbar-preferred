@@ -79,6 +79,7 @@ type `Atom Toolbar Preferred: Edit Config File` in the Atom command palette.
     1. _`terminal-plus` package_
     1. _`platformio-ide-terminal` package_
   - _see [configuration](https://github.com/sparkDEMAND/atom-toolbar-preferred#configuration)._
+- **open REST client** (requires `rest-client` package)
 - **run script** (requires `script` package)
 - **stop script** (requires `script` package)
 - **configure script** (requires `script` package)

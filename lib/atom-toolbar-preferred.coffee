@@ -292,6 +292,12 @@ module.exports =
   },
   {
     type: 'button'
+    tooltip: 'Open REST Client'
+    callback: 'rest-client:show'
+    icon: 'radio-tower'
+  },
+  {
+    type: 'button'
     tooltip: 'Run Script'
     callback: 'script:run'
     icon: 'play-circle'
