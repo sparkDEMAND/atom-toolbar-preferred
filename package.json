@@ -33,6 +33,7 @@
     }
   },
   "devDependencies": {
+    "bithound": "^1.7.0",
     "jasmine": "^2.8.0"
   }
 }

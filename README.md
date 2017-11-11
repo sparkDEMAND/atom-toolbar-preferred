@@ -5,10 +5,9 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/sparkDEMAND/atom-toolbar-preferred.svg)](https://greenkeeper.io/)
 [![NSP Status](https://nodesecurity.io/orgs/sparkdemand/projects/020082d2-3575-4c2d-b21d-762625708731/badge)](https://nodesecurity.io/orgs/sparkdemand/projects/020082d2-3575-4c2d-b21d-762625708731)
 
-[![APM License](https://img.shields.io/apm/l/atom-toolbar-preferred.svg)](https://github.com/sparkDEMAND/atom-toolbar-preferred/blob/27fd2c47ebe359d33fcf4f1a8e9ce9013e415c53/LICENSE )
 [![APM Downloads](https://img.shields.io/apm/dm/atom-toolbar-preferred.svg)](https://atom.io/packages/atom-toolbar-preferred)
 [![APM Version](https://img.shields.io/apm/v/atom-toolbar-preferred.svg)](https://atom.io/packages/atom-toolbar-preferred)
-
+[![APM License](https://img.shields.io/apm/l/atom-toolbar-preferred.svg)](https://github.com/sparkDEMAND/atom-toolbar-preferred/blob/master/LICENSE)
 
 ## About
 
@@ -79,7 +78,6 @@ type `Atom Toolbar Preferred: Edit Config File` in the Atom command palette.
     1. _`terminal-plus` package_
     1. _`platformio-ide-terminal` package_
   - _see [configuration](https://github.com/sparkDEMAND/atom-toolbar-preferred#configuration)._
-- **open REST client** (requires `rest-client` package)
 - **run script** (requires `script` package)
 - **stop script** (requires `script` package)
 - **configure script** (requires `script` package)
@@ -122,24 +120,16 @@ apm install atom-toolbar-preferred
 
 `button`, `url`, `function` and `spacer`.
 
-1.  `button` creates default buttons for your toolbar.
-
-     You can use it to set actions like `application:new-file`.
-
-1.  `url` creates buttons pointing to specific web pages.
-
-    Use this to open any web site, such as your GitHub notifications, in your default browser.
-
-    If you have the package [browser-plus](https://atom.io/packages/browser-plus)
+1. `button` creates default buttons for your toolbar.
+   - You can use it to set actions like `application:new-file`.
+1. `url` creates buttons pointing to specific web pages.
+   - Use this to open any web site, such as your GitHub notifications, in your default browser.
+   - If you have the package [browser-plus](https://atom.io/packages/browser-plus)
     installed, you can open links with atom. To enable this feature, check the corresponding box within Atom Toolbar Preferred's settings.
-
-    Atom URI can also be used. For example; `atom://config/packages/atom-toolbar-preferred` will open Atom Toolbar Preferred's settings.
-
--   `function` creates buttons that can call a function with the previous target as a parameter
-
-    In order to do this, the config file **must** be a `.js` or `.coffee` file that exports the array of buttons.
-
--   `spacer` adds separators between toolbar buttons.
+   - Atom URI can also be used. For example; `atom://config/packages/atom-toolbar-preferred` will open Atom Toolbar Preferred's settings.
+1. `function` creates buttons that can call a function with the previous target as a parameter
+   - In order to do this, the config file **must** be a `.js` or `.coffee` file that exports the array of buttons.
+1. `spacer` adds separators between toolbar buttons.
 
 ### Features
 - multiple callback
