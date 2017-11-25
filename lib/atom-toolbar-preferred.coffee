@@ -58,7 +58,7 @@ module.exports =
     unless @configFilePath
       @configFilePath = path.join atom.configDirPath, 'toolbar.cson'
       defaultConfig = '''
-# This file is used by Atom Toolbar Preferred to create buttons on your Tool Bar.
+# This file is used by Atom Toolbar Preferred to create buttons on your Toolbar.
 # For more information how to use this package and create your own buttons,
 #   read the documentation on https://atom.io/packages/atom-toolbar-preferred
 [
@@ -100,8 +100,7 @@ module.exports =
     dependency: 'markdown-preview'
     callback: 'markdown-preview:toggle'
     show: 'markdown'
-    icon: 'social-markdown'
-    iconset: 'ion'
+    icon: 'markdown'
   },
   {
     type: 'button'
@@ -289,6 +288,25 @@ module.exports =
     callback: 'term3:open-split-down'
     icon: 'terminal'
     iconset: 'fa'
+  },
+  {
+    type: 'button'
+    tooltip: 'Open Codekit'
+    callback: 'codekit-atom-sync:open-codekit'
+    icon: 'code-not-equal-variant'
+    iconset: 'mdi'
+  },
+  {
+    type: 'button'
+    tooltip: 'Add Project to Codekit'
+    callback: 'codekit-atom-sync:add-project-to-codekit'
+    icon: 'file-code'
+  },
+  {
+    type: 'button'
+    tooltip: 'Open Codekit Preview Server'
+    callback: 'codekit-atom-sync:open-codekit-preview-server'
+    icon: 'file-code'
   },
   {
     type: 'button'
