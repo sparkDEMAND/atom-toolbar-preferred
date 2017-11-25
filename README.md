@@ -18,22 +18,22 @@
 This is a plugin for
 the [Atom Tool Bar](https://atom.io/packages/tool-bar) package.
 
--   [Description](#description)
--   [Default Setup](#default-setup)
-    -   [**_General Commands_**](#general-commands)
-    -   [**_Previews & Management_**](#previews-management)
-    -   [**_Git Commands_**](#git-commands)
-    -   [**_Viewing & Arranging_**](#viewing-arranging)
-    -   [**_Formatting_**](#formatting)
-    -   [**_IDE & Dev Tools_**](#ide-dev-tools)
--   [Installation](#installation)
-    -   [Command Line](#command-line)
--   [Options](#options)
--   [Configuration](#configuration)
-    -   [Features](#features)
-    -   [Example](#example)
--   [Authors](#authors)
--   [License](#license)
+- [Description](#description)
+- [Default Setup](#default-setup)
+  - [**_General Commands_**](#general-commands)
+    - [**_Previews & Management_**](#previews-management)
+    - [**_Git Commands_**](#git-commands)
+    - [**_Viewing & Arranging_**](#viewing-arranging)
+    - [**_Formatting_**](#formatting)
+    - [**_IDE & Dev Tools_**](#ide-dev-tools)
+- [Installation](#installation)
+    - [Command Line](#command-line)
+- [Options](#options)
+- [Configuration](#configuration)
+    - [Features](#features)
+    - [Example](#example)
+- [Authors](#authors)
+- [License](#license)
 
 
 ## Description
