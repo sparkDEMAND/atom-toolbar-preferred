@@ -1,34 +1,42 @@
-Preferred Toolbar for Atom: *a tool-bar plugin*
-===============================================
+# Preferred Toolbar for Atom: _a tool-bar plugin_
 
-[![Build Status](https://travis-ci.org/sparkDEMAND/atom-toolbar-preferred.svg?branch=master)](https://travis-ci.org/sparkDEMAND/atom-toolbar-preferred)[![bitHound Overall Score](https://www.bithound.io/github/sparkDEMAND/atom-toolbar-preferred/badges/score.svg)](https://www.bithound.io/github/sparkDEMAND/atom-toolbar-preferred)[![Greenkeeper badge](https://badges.greenkeeper.io/sparkDEMAND/atom-toolbar-preferred.svg)](https://greenkeeper.io/)[![NSP Status](https://nodesecurity.io/orgs/sparkdemand/projects/020082d2-3575-4c2d-b21d-762625708731/badge)](https://nodesecurity.io/orgs/sparkdemand/projects/020082d2-3575-4c2d-b21d-762625708731)
+[![Build Status](https://travis-ci.org/sparkDEMAND/atom-toolbar-preferred.svg?branch=master)](https://travis-ci.org/sparkDEMAND/atom-toolbar-preferred)
+[![bitHound Overall Score](https://www.bithound.io/github/sparkDEMAND/atom-toolbar-preferred/badges/score.svg)](https://www.bithound.io/github/sparkDEMAND/atom-toolbar-preferred)
+[![Greenkeeper badge](https://badges.greenkeeper.io/sparkDEMAND/atom-toolbar-preferred.svg)](https://greenkeeper.io/)
+[![NSP Status](https://nodesecurity.io/orgs/sparkdemand/projects/020082d2-3575-4c2d-b21d-762625708731/badge)](https://nodesecurity.io/orgs/sparkdemand/projects/020082d2-3575-4c2d-b21d-762625708731)
 
-[![APM Downloads](https://img.shields.io/apm/dm/atom-toolbar-preferred.svg)](https://atom.io/packages/atom-toolbar-preferred)[![APM Version](https://img.shields.io/apm/v/atom-toolbar-preferred.svg)](https://atom.io/packages/atom-toolbar-preferred)[![APM License](https://img.shields.io/apm/l/atom-toolbar-preferred.svg)](https://github.com/sparkDEMAND/atom-toolbar-preferred/blob/master/LICENSE)
+[![APM Downloads](https://img.shields.io/apm/dm/atom-toolbar-preferred.svg)](https://atom.io/packages/atom-toolbar-preferred)
+[![APM Version](https://img.shields.io/apm/v/atom-toolbar-preferred.svg)](https://atom.io/packages/atom-toolbar-preferred)
+[![APM License](https://img.shields.io/apm/l/atom-toolbar-preferred.svg)](https://github.com/sparkDEMAND/atom-toolbar-preferred/blob/master/LICENSE)
 
-About
------
 
-This is a plugin for the [Atom Tool Bar](https://atom.io/packages/tool-bar) package.
+<a class="button" href='https://ko-fi.com/X8X15FFT' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
-  - [Description](#description)
-  - [Default Setup](#default-setup)
-      - [***General Commands***](#general-commands)
-      - [***Previews & Management***](#previews-management)
-      - [***Git Commands***](#git-commands)
-      - [***Viewing & Arranging***](#viewing-arranging)
-      - [***Formatting***](#formatting)
-      - [***IDE & Dev Tools***](#ide-dev-tools)
-  - [Installation](#installation)
-      - [Command Line](#command-line)
-  - [Options](#options)
-  - [Configuration](#configuration)
-      - [Features](#features)
-      - [Example](#example)
-  - [Authors](#authors)
-  - [License](#license)
 
-Description
------------
+## About
+
+This is a plugin for
+the [Atom Tool Bar](https://atom.io/packages/tool-bar) package.
+
+-   [Description](#description)
+-   [Default Setup](#default-setup)
+    -   [**_General Commands_**](#general-commands)
+    -   [**_Previews & Management_**](#previews-management)
+    -   [**_Git Commands_**](#git-commands)
+    -   [**_Viewing & Arranging_**](#viewing-arranging)
+    -   [**_Formatting_**](#formatting)
+    -   [**_IDE & Dev Tools_**](#ide-dev-tools)
+-   [Installation](#installation)
+    -   [Command Line](#command-line)
+-   [Options](#options)
+-   [Configuration](#configuration)
+    -   [Features](#features)
+    -   [Example](#example)
+-   [Authors](#authors)
+-   [License](#license)
+
+
+## Description
 
 An Atom tool-bar plugin that builds upon the tool-bar package to provide preferred actions, including live previews, git, formatting, dev tools, IDE tools, and other popularly used actions while remaining uncluttered and intuitive.
 
