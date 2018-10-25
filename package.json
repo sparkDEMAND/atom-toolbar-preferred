@@ -33,6 +33,6 @@
     }
   },
   "devDependencies": {
-    "jasmine": "^3.0.0"
+    "jasmine": "^3.3.0"
   }
 }
