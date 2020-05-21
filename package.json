@@ -18,7 +18,7 @@
     "atom-package-deps": "^4.0.1",
     "change-case": "^3.0.0",
     "chokidar": "^2.0.4",
-    "cson": "^5.1.0",
+    "cson": "^7.5.0",
     "fs-plus": "^3.0.1",
     "tree-match-sync": "0.0.2"
   },
